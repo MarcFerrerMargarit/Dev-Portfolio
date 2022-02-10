@@ -12,10 +12,10 @@ import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Experience() {
   return (
-    <Container fluid className="experience-section">
+    <Container fluid className="project-section">
       <Particle />
       <Container>
-        <h1 className="experience-heading">
+        <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>

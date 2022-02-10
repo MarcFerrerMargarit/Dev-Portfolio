@@ -5,7 +5,7 @@ import { BiLinkExternal } from "react-icons/bi";
 
 function ExperienceCards(props) {
   return (
-    <Card className="experience-card-view">
+    <Card className="project-card-view">
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
