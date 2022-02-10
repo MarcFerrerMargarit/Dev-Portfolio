@@ -85,7 +85,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to=""
+                to="/experience"
                 onClick={() => updateExpanded(false)}
               >
                 <ImBlog style={{ marginBottom: "2px" }} /> Education
