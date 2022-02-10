@@ -19,37 +19,25 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              From a very young age I fell in love with computers and new technologies and then I discovered programming that captivated me and I realized that all I wanted to do was program and learn everything I could.
               <br />
-              <br />I am fluent in classics like
+              <br />My most fluent programming languages are
               <i>
-                <b className="purple"> C++, Javascript and Python. </b>
+                <b className="purple"> Python, C++ i Java. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My field of Interest's are&nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
+                <b className="purple">programming </b> and
+                everything related to {" "}
                 <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
+                Machine Learning and Data Science.
                 </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              Aside from being my profession, programming is also one of my hobbies. In my spare time I try to learn new languages or new methodologies. Aside from programming, I also spend a lot of time playing video games.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
