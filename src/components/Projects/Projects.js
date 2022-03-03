@@ -3,12 +3,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.jpeg";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import vw from "../../Assets/Projects/vw.jpeg"
+import ar from "../../Assets/Projects/ar.jpg"
+import unity from "../../Assets/Projects/unity.png"
+
 
 function Projects() {
   return (
@@ -24,63 +22,49 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={vw}
               isBlog={false}
-              title="Volkswagen Group Services"
-              subtitle="from June '21 to Present"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              title="Software Development Engineer"
+              subtitle="Volkswagen Group Services, Martorell, from June 2021"
+              description="Developing software for Human Machine Interface (HMI)
+              projects and working on I+D projects. Working with Java,
+              Python, UML, Jira, Confluence and SubVersion."
               link="https://www.volkswagen-groupservices.pt/es/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={ar}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              link="https://github.com/soumyajit4419/Plant_AI"
+              title="Software Developer"
+              subtitle="ITK Engineering, Barcelona, from July 2018 - May 2021"
+              description="Developing High Level Software applications. Worked on
+              several projects like Android application which controls
+              an electric bike using Bluetooth, improving a virtual
+              testing toolchain, developing unit tests for an application
+              and developing an application for Augmented Reality
+              (HoloLens) and after for Virtual Reality (Oculus Quest).
+              Also developed some webpages and software for
+              integration for the company.
+              Some of the technologies I used are Android Studio,
+              Java, Kotlin, C++, C#, Unity, Python, Django, Jira,
+              Confluence, SubVersion and Git."
+              link="https://www.itk-engineering.de/en/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={unity}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              link="https://github.com/soumyajit4419/Editor.io"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={bitsOfCode}
-              isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              link="https://github.com/soumyajit4419/Bits-0f-C0de"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              link="https://github.com/soumyajit4419/AI_For_Social_Good"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              title="Junior Software Developer"
+              subtitle = "InteriorVista, Barcelona, from March 2017 - July 2018"
+              description="Developing C++ algorithms for a 3D Visualization Project.
+              Also developed some internal tools for 3D visualizing with
+              C# and Unity.
+              Done my final degree project about Machine Learning
+              with data exported from the internal tools in Python."
             />
           </Col>
         </Row>
